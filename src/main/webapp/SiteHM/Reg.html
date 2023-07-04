@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reg</title>
+  <link rel="stylesheet" href="reg_b_style.css">
+  <script language="JavaScript" type="text/javascript" src = "form_b.js"></script>
+</head>
+<body>
+<div class="container_b">
+
+  <div class="logo">
+      <img class="logo_mg" src= "img_b/Barber3.png">
+  </div>
+
+  <form id="register-form" action= "http://localhost:63342/MyProjects/src/main/webapp/SiteHM/MainPage.html?_ijt=kcfvp0v1bkk54rm4d541th5lbi&_ij_reload=RELOAD_ON_SAVE" method="get" name="RegF" onsubmit="return validation_b()">
+    <h2>REGISTRATION FORM</h2>
+
+    <label for="username">NAME</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="lastname">LAST NAME</label>
+    <input type="text" id="lastname" name="lastname" required>
+
+    <label for="PhoneNumber">PHONE</label>
+    <input type="PhoneNumber" id="PhoneNumber" name="PhoneNumber" required>
+
+    <label for="time">CONVENIENT TIME</label>
+    <select id="time" name="time">
+      <option value="-1">CHOOSE TIME</option>
+      <option value="1">9:00</option>
+      <option value="2">10:00</option>
+      <option value="3">11:00</option>
+      <option value="4">12:00</option>
+      <option value="5">13:00</option>
+      <option value="6">14:00</option>
+      <option value="7">15:00</option>
+      <option value="8">16:00</option>
+      <option value="9">17:00</option>
+      <option value="10">18:00</option>
+      <option value="11">19:00</option>
+      <option value="12">20:00</option>
+      <option value="13">21:00</option>
+      <option value="14">22:00</option>
+
+
+    </select><br><br>
+
+    <button type="submit">Registration</button>
+  </form>
+
+</div>
+</body>
+</html>
